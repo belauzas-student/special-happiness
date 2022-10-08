@@ -22,3 +22,7 @@ headerDOM.innerHTML = renderNav(5);
 console.log(HTML);
 
 const PI = 3.14;
+
+if (x) {
+    console.log('X', x);
+}
