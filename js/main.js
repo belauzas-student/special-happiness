@@ -18,3 +18,5 @@ const navHTML = `<nav>${linksHTML}</nav>`;
 headerDOM.innerHTML = navHTML;
 
 console.log(HTML);
+
+const PI = 3.14;
