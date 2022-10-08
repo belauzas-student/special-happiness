@@ -7,3 +7,5 @@ for (let i=0; i< 5; ++i) {
 }
 
 bodyDOM.insertAdjacentElement("afterbegin", HTML);
+
+console.log(HTML);
