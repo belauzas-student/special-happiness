@@ -9,13 +9,15 @@ for (let i=0; i< 5; ++i) {
 
 bodyDOM.insertAdjacentElement("afterbegin", HTML);
 
-let linksHTML = '';
-for (let i=0; i<5; ++i) {
-    linksHTML += `<a href="#">Link</a>`;
+function renderNav(count = 0, color = 'red', q, w, e, r, t, y, u, o, p) {
+    let HTML = '';
+    for (let i=0; i<5; ++i) {
+        HTML += `<a href="#">Link</a>`;
+    }
+    return `<nav>${HTML}</nav>`;
 }
 
-const navHTML = `<nav>${linksHTML}</nav>`;
-headerDOM.innerHTML = navHTML;
+headerDOM.innerHTML = renderNav(5);
 
 console.log(HTML);
 
