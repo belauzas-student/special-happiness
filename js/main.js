@@ -9,7 +9,7 @@ for (let i=0; i< 5; ++i) {
 
 bodyDOM.insertAdjacentElement("afterbegin", HTML);
 
-function renderNav(count = 0, color = 'red', q, w, e,r) {
+function renderNav(count = 0, color = 'red') {
     let HTML = '';
     for (let i=0; i<count; ++i) {
         HTML += `<a href="#">Link</a>`;
